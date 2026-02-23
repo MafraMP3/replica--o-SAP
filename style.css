@@ -75,6 +75,9 @@ h2{
     text-align: center;
     justify-content: space-between;
 }
+.h2_2{
+    color: black;
+}
 
 
 
@@ -112,6 +115,13 @@ h2{
 
 /* Parte do Davi */
 
+#body2{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
 .img_icone{
     width: 20px;
     height: 20px;
@@ -121,6 +131,7 @@ h2{
     background-color:#dddd;
     margin: 0px;
     font-size: 20px;
+    padding: 7px;
 }
 
 #body_1{
@@ -134,14 +145,13 @@ h2{
 
 }
 #nav_cima{
-        display: flex;
+    display: flex;
     gap: 5px;
     background-color: #dddd;
     border: 3px;
     height: 40px;
     align-items: center;
     padding-left: 5px;
-    margin: 0px;
     border-bottom: #d3d3d3 4px;
 }
 button{
@@ -151,9 +161,51 @@ button{
 .botao_nav{
     display: flex;
     align-items: center;
-    flex-direction: row;
     background-color: #c1c1c4;
 }
+
+#text_repositorio{
+    color: rgb(78, 78, 78);
+}
+
+#nav_repositorios{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(245, 245, 245);
+    padding: 7px;
+}
+
+#linha_azul{
+    height: 5px;
+    background-color:#1b63c1;
+    margin: 0px;
+}
+
+#section_3{
+    background-color: #dddd;
+    padding: 7px;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+}
+
+#table_2{
+
+  border-collapse: collapse; /* Faz com que as bordas fiquem unidas em uma só linha */
+  font-family: Arial, sans-serif;
+}
+
+#thead_2{
+    background-color: #dddd;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+
 
 
 
