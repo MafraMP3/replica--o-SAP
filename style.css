@@ -24,7 +24,7 @@ h2{
     margin: 5px;
 }
 #listaboasvindas{
-    justify-content: space-between;
+    justify-content: space-between;s
 }
 
 #recomendacoes{
@@ -73,6 +73,37 @@ h2{
     display: flex;
     text-align: center;
     justify-content: space-between;
+}
+/* Parte do Davi */
+
+.img_icone{
+    width: 40px;
+    height: 40px;
+}
+
+#cabeçalho{
+    background-color:#c1c1c4;
+}
+
+#body_1{
+    background-color: aqua;
+}
+
+#linha_amarela{
+    height: 20px;
+    background-color: rgb(219, 219, 5);
+}
+#nav_cima{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botao_nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #c1c1c4;
 }
 
 
