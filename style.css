@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: space-around;
     justify-content: center;
+    margin: 50px;
 }
 h2{
     color: #043fae;
@@ -26,7 +27,53 @@ h2{
     justify-content: space-between;
 }
 
-/* Parte do Davi *?
+#recomendacoes{
+    color: #043fae;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #d9e9fd;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 15px;
+}
+#containerproduto{
+    display: flex;
+}
+#textorec{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.produto{
+     background-color: rgb(255, 255, 255);
+    border-radius: 20PX;
+    margin: 5px;
+    padding: 10px;
+}
+
+#pontos{
+    width: 100px;
+}
+.img_produto{
+    max-width:200px ;
+    max-height:200px ;
+}
+#pedidos{
+    background-color:#d9e9fd ;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin: 50px;
+}
+#textoped{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
 
 
 
