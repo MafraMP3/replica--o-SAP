@@ -15,3 +15,15 @@ body{
 h2{
     color: #043fae;
 }
+.tabela{
+    background-color: #043fae;
+    color: #d9e9fd;
+    border-radius: 20px;
+    padding: 5px;
+}
+#listaboasvindas{
+    justify-content: space-between;
+}
+
+
+
