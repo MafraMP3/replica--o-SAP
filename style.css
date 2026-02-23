@@ -113,26 +113,39 @@ h2{
 /* Parte do Davi */
 
 .img_icone{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
 #cabeçalho{
-    background-color:#c1c1c4;
+    background-color:#dddd;
+    margin: 0px;
+    font-size: 20px;
 }
 
 #body_1{
-    background-color: aqua;
+    background-color: white;
 }
 
 #linha_amarela{
     height: 20px;
-    background-color: rgb(219, 219, 5);
+    background-color:#feef89;
+    margin: 0px;
+
 }
 #nav_cima{
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+    gap: 5px;
+    background-color: #dddd;
+    border: 3px;
+    height: 40px;
+    align-items: center;
+    padding-left: 5px;
+    margin: 0px;
+    border-bottom: #d3d3d3 4px;
+}
+button{
+    height: 30px;
 }
 
 .botao_nav{
