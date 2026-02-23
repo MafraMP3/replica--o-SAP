@@ -1,0 +1,17 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#robo{
+    width: 300px;
+}
+#boasvindas{
+    background-color:#d9e9fd ;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+h2{
+    color: #043fae;
+}
