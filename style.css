@@ -35,7 +35,7 @@ h2{
     background-color: #d9e9fd;
     border-radius: 20px;
     margin: 50px;
-    padding: 15px;
+    padding: 20px;
 }
 #containerproduto{
     display: flex;
@@ -51,6 +51,7 @@ h2{
     border-radius: 20PX;
     margin: 5px;
     padding: 10px;
+    color: black;
 }
 
 #pontos{
@@ -65,15 +66,50 @@ h2{
     border-radius: 20px;
     padding: 30px;
     display: flex;
-    justify-content: space-around;
-    justify-content: center;
+    justify-content: space-between;
     margin: 50px;
+    align-items: center;
 }
 #textoped{
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Parte do Davi */
 
 .img_icone{
