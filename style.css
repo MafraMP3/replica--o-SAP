@@ -192,7 +192,7 @@ button{
 
 #table_2{
 
-  border-collapse: collapse; /* Faz com que as bordas fiquem unidas em uma só linha */
+  border-collapse: collapse; 
   font-family: Arial, sans-serif;
 }
 
@@ -206,6 +206,31 @@ th, td {
   text-align: left;
 }
 
+#section_5{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #dddd;
+    flex-wrap: wrap;
+    padding: 7px;
+}
 
+#icone_pasta_sec5{
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+#section_6{
+    background-color: #dddd;
+    padding: 7px;
+    align-items: center;
+    display: flex;
+    gap: 7px;
+}
+
+#botao1_canto_sec6{
+    margin-left: auto;
+    padding-right: 7px;
+}
 
 
