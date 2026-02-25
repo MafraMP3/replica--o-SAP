@@ -274,9 +274,14 @@ button{
 }
 
 #table_2{
-
   border-collapse: collapse; 
   font-family: Arial, sans-serif;
+}
+
+#table_3{
+  border-collapse: collapse; 
+  font-family: Arial, sans-serif;
+  
 }
 
 #thead_2{
@@ -287,6 +292,8 @@ th, td {
   border: 1px solid #ccc;
   padding: 5px;
   text-align: left;
+  width: 100%;
+
 }
 
 #div_5{
@@ -321,6 +328,16 @@ th, td {
 }
 #div_right{
     margin-top: 30px;
+    margin-left: 10px;
     border-left: #c1c1c4 15px;
-    
+    display: flexbox;
+    justify-content: space-;
+    width: 100%;
+}
+
+#divisao_vertical {
+  background-color: #e5e5e5;
+  border-left: 5px solid #d0d0d0;
+  border-right: 5px solid #d0d0d0;
+  height: 100vh;
 }
