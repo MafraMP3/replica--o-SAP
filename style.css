@@ -239,7 +239,7 @@ button{
     margin: 0px;
 }
 
-#section_3{
+#div_3{
     background-color: #dddd;
     padding: 7px;
     align-items: center;
@@ -263,7 +263,7 @@ th, td {
   text-align: left;
 }
 
-#section_5{
+#div_5{
     display: flex;
     align-items: center;
     gap: 30px;
@@ -277,7 +277,7 @@ th, td {
     padding-right: 10px;
 }
 
-#section_6{
+#div_6{
     background-color: #dddd;
     padding: 7px;
     align-items: center;
@@ -290,4 +290,11 @@ th, td {
     padding-right: 7px;
 }
 
-
+#section_principal{
+    display: flex;
+}
+#div_right{
+    margin-top: 30px;
+    border-left: #c1c1c4 15px;
+    
+}
