@@ -5,13 +5,34 @@ body{
     width: 300px;
 }
 #boasvindas{
-    background-color:#d9e9fd ;
+    background-color:#ffffff ;
     border-radius: 20px;
     padding: 30px;
     display: flex;
     justify-content: space-around;
     justify-content: center;
-    margin: 50px;
+    margin: 20 40;
+    margin-left: 0px;
+}
+#boasvindas1{
+    background-color: #d9e9fd;
+    border-radius: 20px;
+    height: 350px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    padding: 0 20;
+    margin-right: 0px;
+}
+#boasvindas2{
+    background-color: #d9e9fd;
+    border-radius: 20px;
+    margin:  0 40;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    width: 700px;
 }
 h2{
     color: #043fae;
@@ -20,25 +41,55 @@ h2{
     background-color: #043fae;
     color: #d9e9fd;
     border-radius: 20px;
-    padding: 5px;
+    padding: 5 30;
     margin: 5px;
+    text-align: center;
 }
 #listaboasvindas{
     justify-content: space-between;
 }
 
 #recomendacoes{
-    color: #043fae;
-    text-align: center;
+    background-color:#ffffff ;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20 40;
+    margin-left: 0px;
+}
+#section2_1{
     background-color: #d9e9fd;
     border-radius: 20px;
-    margin: 50px;
-    padding: 20px;
+    padding: 0 20;
+    margin-right: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
 }
+#section2_2{
+    background-color: #d9e9fd;
+    border-radius: 20px;
+    margin:  0 40;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0 20px;
+    width: 1000px;
+}
+
+#divponto{
+    justify-content: center;
+}
+
+
 #containerproduto{
     display: flex;
+    flex-wrap: wrap;
+    padding: 15;
+    justify-content: center;
 }
 #textorec{
     display: flex;
@@ -48,18 +99,19 @@ h2{
 
 .produto{
      background-color: rgb(255, 255, 255);
-    border-radius: 20PX;
+    border-radius: 10PX;
     margin: 5px;
     padding: 10px;
     color: black;
+    font-size: 10px;
 }
 
-#pontos{
+.pontos{
     width: 100px;
 }
 .img_produto{
-    max-width:200px ;
-    max-height:200px ;
+    max-width:130px ;
+    max-height:130px ;
 }
 #pedidos{
     background-color:#d9e9fd ;
@@ -77,6 +129,11 @@ h2{
 }
 .h2_2{
     color: black;
+}
+#textob1{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 
 
